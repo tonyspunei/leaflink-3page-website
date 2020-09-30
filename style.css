@@ -10,6 +10,7 @@ html {
 
 nav {
   background: #fff;
+  z-index: 3;
 }
 
 .nav-wrapper {
@@ -18,6 +19,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 3;
 }
 
 /* LOGO SECTION */
@@ -91,4 +93,86 @@ nav {
 
 .btn-2 {
   background: #d2cfdb;
+}
+
+/* HERO 1 */
+.hero-section-one {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #e5f8f9;
+}
+
+.text-section {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 26rem;
+  z-index: 2;
+}
+
+.language-btn {
+  height: 4rem;
+  width: 12rem;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+.language-btn img {
+  height: 24px;
+  width: 24px;
+}
+
+/* Big text */
+
+.big-text {
+  width: 100%;
+  margin: 4rem 0;
+}
+.big-text h1 {
+  font-size: 4rem;
+  font-family: fantasy;
+  color: #1a1342;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Learn more button */
+.more-btn {
+  height: 4rem;
+  width: 12rem;
+  background: #3bbbc8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.more-btn a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1c1e4b;
+  font-weight: bold;
+}
+
+.earth-background-image {
+  height: 100vh;
+  width: 80%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  object-fit: cover;
+  z-index: 1;
+  overflow: hidden;
 }
