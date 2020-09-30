@@ -190,21 +190,121 @@ nav {
 
 .hero-text-section h3 {
   font-size: 1.4rem;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
 }
 
 .hero-text-section h1 {
   font-size: 4rem;
   color: #171040;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   margin: 4rem 0;
 }
 
 .hero-text-section p {
   color: #544d75;
   font-size: 1.1rem;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
 }
 
 /* HERO SELLERS */
+.hero-sellers {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.statistic-side {
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.statistic-box {
+  min-height: 40rem;
+  min-width: 40rem;
+  box-shadow: 2px 2px 20px rgb(180, 180, 180);
+  position: relative;
+}
+
+.statistic-box h3 {
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  padding: 2rem;
+  color: #555072;
+}
+
+.statistic-box img {
+  height: 100%;
+  width: 100%;
+  padding: 2rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  object-fit: contain;
+}
+
+/* Text Side */
+.text-side {
+  height: 100vh;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.text-side h3 {
+  font-size: 2rem;
+  color: #312b56;
+  font-family: "Poppins", sans-serif;
+}
+
+.text-side > p {
+  font-size: 1.3rem;
+  color: #575179;
+  font-family: "Poppins", sans-serif;
+  margin: 2rem 0;
+}
+
+/* Table Design */
+.tabel {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.dot {
+  display: flex;
+  align-items: center;
+}
+
+.dot p {
+  font-size: 1.4rem;
+  font-family: "Poppins", sans-serif;
+  color: #2b254f;
+  font-weight: bold;
+  padding-left: 1.5rem;
+}
+
+/* More Information Button */
+.more-info-btn {
+  height: 4rem;
+  min-width: 18rem;
+  background: #3bbbc8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.more-info-btn a {
+  text-decoration: none;
+  color: #1b1343;
+  font-size: 1.3rem;
+  font-family: "Poppins", sans-serif;
+  padding: 1rem;
+  font-weight: bold;
+}
