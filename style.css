@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+nav {
+  background: #fff;
+}
+
+.nav-wrapper {
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* LOGO SECTION */
+.logo {
+  height: 10vh;
+  width: 20%;
+  display: flex;
+  align-items: center;
+}
+
+.logo h1 {
+  padding: 0 0.5rem;
+}
+
+.logo-sign {
+  margin-left: 3rem;
+  font-family: "Pacifico", cursive;
+  font-size: 3rem;
+}
+
+.logo-name {
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+}
+
+/* LINKS SECTION */
+.links-wrapper {
+  height: 10vh;
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.links-wrapper a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  color: #3f395f;
+}
